@@ -106,15 +106,7 @@ USER ──< CART_ITEM >── PRODUCT
 
 ---
 
-## ⭐ Bonus Implemented
-
-* Search products by name
-* View order history for a user
-* Cancel unpaid orders
-* Razorpay payment gateway integration
-
----
-
 ## ✅ Conclusion
 
 This backend project demonstrates how different e-commerce components interact with each other, starting from cart management to order processing and payment completion, using REST APIs and webhook callbacks.
+
