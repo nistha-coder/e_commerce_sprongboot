@@ -1,8 +1,3 @@
-
-
-
-
-
 package e_commerce.e_commerce.controller;
 
 import e_commerce.e_commerce.model.Payment;
@@ -29,4 +24,5 @@ public class PaymentController {
         return paymentService.createRazorpayPayment(orderId, amount);
     }
 }
+
 
