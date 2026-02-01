@@ -1,30 +1,4 @@
-//package e_commerce.e_commerce.controller;
-//
-//import e_commerce.e_commerce.model.Payment;
-//import e_commerce.e_commerce.service.PaymentService;
-//import org.springframework.web.bind.annotation.*;
-//
-//import java.util.Map;
-//
-//@RestController
-//@RequestMapping("/api/payments")
-//public class PaymentController {
-//
-//    private final PaymentService paymentService;
-//
-//    public PaymentController(PaymentService paymentService) {
-//        this.paymentService = paymentService;
-//    }
-//
-//    // POST /api/payments/create
-//    @PostMapping("/create")
-//    public Payment createPayment(@RequestBody Map<String, Object> request) {
-//        String orderId = (String) request.get("orderId");
-//        double amount = Double.parseDouble(request.get("amount").toString());
-//
-//        return paymentService.create(orderId, amount);
-//    }
-//}
+
 
 
 
@@ -55,3 +29,4 @@ public class PaymentController {
         return paymentService.createRazorpayPayment(orderId, amount);
     }
 }
+
